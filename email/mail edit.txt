@@ -1,0 +1,4 @@
+<a
+href="https://warna.lk/account-verify?verify_link=<!-- #{verifyLink} -->"
+ style="text-decoration: none; font-family: Arial; font-size: 16px; color: #ffffff; line-height: 28px; font-weight: 600;"
+>
