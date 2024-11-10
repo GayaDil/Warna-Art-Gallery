@@ -1,0 +1,136 @@
+Frontend
+	Homepage
+		re arrange entire
+
+	Product
+		Bid
+
+	Artist
+		Rating
+
+
+
+Artist
+	Dashboard
+
+
+
+Admin
+	Dashboard
+
+	Report
+
+	Payment commision
+
+
+
+
+need to check
+	1.	auto update on cart page
+
+	2.	admin/artist-payments-view 
+		add commission
+
+
+	3.	Admin > dispatched-orders (redirects to orders(artists redirection))  /* Customer Confirm STEP 6*/ 
+				http://localhost/warna2/3/admin/dispatched-orders
+
+				location reload is required
+
+		
+	4.	https://slag.mydemoview.com/artworks/painting/new-package-2
+
+		(terms and conditions mehema dannada both product pages on front end and artist . customer/ Artist) 
+
+
+
+	checkout.php
+	send note to Artist regarding the shipment country n state
+	(......? artist can view country and state on order-view (awaiting approve status).)
+
+
+
+
+
+
+
+
+
+
+
+
+
+send customers to payment details(email content)
+(what if artist hasnt update the bank details?)
+
+
+/* APPROVE STEP 5*/(email content)
+		Estimated delivery time
+		Shipping method
+		Return policy
+
+
+6.email templates
+		-password updated
+
+		
+
+
+
+
+
+
+
+[[[[[[[[
+
+	1. 	artist-payments-view
+	5.	add product admin 
+	6.	update user password 
+	7.	update user email
+	10.	contact inquiry count 
+	4.	profile > bank      		
+	8.	profile > bank     
+	2. 	received-payments
+	1.pending shippment count on sidebar
+	2.commission table(id, precentage)
+	3.page (only update)
+	4.new col -> order tb (commission col)
+	5.checkout + commisssion
+	7.delete 
+	8.payments view commission
+	11. bid cus names
+	9.admin oreder edit
+		
+					
+		order total 	32 000
+		commision  10%  -3 200
+
+		payable amount	28 800 
+
+		received amount	25 000
+
+		due amount		3 800
+
+
+							]]]]]]]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		

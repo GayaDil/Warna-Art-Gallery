@@ -1,0 +1,11 @@
+1 	/*  STEP 1*/ Awaiting Approval ----------> After placed order (checkout.php)	
+2 	/*  STEP 2*/ Pending Payment 	------------>After  artist approved (order.php)
+3 	/*  STEP 3*/ Pending Verify Payment ------------> customer paid (payment-submit.php)
+4 	/*  STEP 4*/ Pending Shipment 	------------> Admin verified (payment-verify.php)
+5 	/*  STEP 5*/ Pending collect 	------------> Artist dispatched (    )
+6 	/*  STEP 6*/ Pending Payment to artist 	------------> Customer collected (    )
+7 	/*  STEP 7*/ Completed 	    ------------> paid  (    )
+
+8 	/*  STEP 2*/ Rejected by Artist 	
+9 	/*  STEP 3*/ Payment Rejected 	
+10 	/*  STEP 4*/ Shipment Canceled

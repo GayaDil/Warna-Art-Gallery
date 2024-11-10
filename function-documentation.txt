@@ -1,0 +1,76 @@
+#search n view all product under caterogies, medium, selling method  
+	select * from product tb where $s_category, $s_medium, $s_method, $s_query,
+
+#add to cart
+	insert in to -> cart tb (product id , user id, artist id, quantity, created, updated)
+
+
+	#change quantity
+	update -> cart tb (quantity)******
+
+	#remove cart item
+	delete -> cart tb (product id)*******
+
+
+#bid
+	insert in to -> bid tb (product id, user id, artist id, created, amount, created, updated)*****
+
+	#enter amount
+		form for enter amout for bidding******
+
+
+
+#enter order shipping deatils
+	form for enter shipping details
+
+#order place
+	insert in to -> order tb( user id, artist id , post method, bid id, payment method, shipping deatils, status)
+	insert in to -> order progress tb (order id, user id, status, created time, note)
+	insert in to -> order product tb (order id, product id, unit price , quantity, status , created, status user id, status time)
+	Send Notification emails to ARTISTS
+	Send Notification emails to CUSTOMER and ADMIN
+  
+
+
+/*------------------------------------------------------------------------*/
+
+#search n  view all artists under service category
+	select * from product tb where $s_service,$s_query ==,
+
+#add review
+	form for add review
+	insert into -> review tb (review, user id, artist id, status, created tiem, updated time)
+
+#update review
+	update reveiw tb (reveiw id)*********
+
+#add rate
+	insert into -> rates tb (user id , artist id, rate, created)
+
+/*------------------------------------------------------------------------*/
+
+#register
+	insert into user tb (name,....)\
+	send email verification link
+
+#resend
+
+#verify
+	select from user email verified link==  $_GET[verify_link]
+
+
+/*------------------------------------------------------------------------*/
+
+
+#login
+	selct form user tb where $email and $password start session
+
+#send email reset request
+	if email exist send link to reset password 
+	direct to reset password change page
+
+
+#change password
+	 update userr tb password
+
+/*------------------------------------------------------------------------*/

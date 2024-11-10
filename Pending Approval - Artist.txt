@@ -1,0 +1,15 @@
+Pending Approval - Artist
+Pending Payment
+Pending Shipment
+Pending Collect
+Pending Payment to artist
+Completed
+
+1	-> Order placed						->	Pending Approval
+2	-> Artist approved					-> 	Pending Payment
+3	-> Paid								-> 	Pending Shipment
+4	-> Dispached						-> 	Pending Collect
+5	-> Collected						-> 	Pending Payment to artist
+6	-> Paid								-> 	Completed
+
+forms_advanced.html
